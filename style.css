@@ -83,7 +83,7 @@ img {
 }
 .nova-legacy-o-pack > .nova-legacy-o-pack__item {
   display: table-cell;
-  vertical-align: top;
+  vertical-align: middle;
 }
 
 .lite-page__header-search-input {
