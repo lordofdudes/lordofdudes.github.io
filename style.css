@@ -52,13 +52,128 @@ img {
   border: 0;
 }
 
+.lite-page__header-search {
+  height: 62px;
+}
+.nova-legacy-o-pack--width-auto {
+  width: auto;
+}
+.nova-legacy-o-pack--gutter-m {
+  margin-left: -10px;
+  margin-right: -10px;
+}
 .nova-legacy-o-pack {
   display: table;
   width: 100%;
   table-layout: fixed;
   border-spacing: 0;
-  width: auto;
-  height: 62px;
-  margin-left: -10px;
-  margin-right: -10px;
+}
+
+.nova-legacy-o-pack--vertical-align-middle > .nova-legacy-o-pack__item {
+  vertical-align: middle;
+}
+.nova-legacy-o-pack--gutter-m > .nova-legacy-o-pack__item {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.nova-legacy-o-pack > .nova-legacy-o-pack__item {
+  display: table-cell;
+  vertical-align: top;
+}
+
+.lite-page__header-search-input {
+  margin: 0;
+  transition: none;
+  border: 0;
+  width: 390px;
+  max-width: 500px;
+  height: 34px;
+  line-height: 26px;
+  border-radius: .125rem;
+  background-color: #A0DED9;
+  position: relative;
+  padding: 0 30px 0 10px;
+  font-size: .875rem;
+}
+
+@media (min-width: 993px) {
+  .lite-page__header-search .lite-page__header-search-button {
+    border: none;
+  }
+}
+.lite-page__header-search .lite-page__header-search-button {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.nova-legacy-c-button--width-square.nova-legacy-c-button--size-s {
+  width: 2.28571em;
+}
+.nova-legacy-c-button--color-white.nova-legacy-c-button--theme-ghost {
+  border-color: #FFFFFF00;
+  color: #FFFFFF00;
+}
+.nova-legacy-c-button--width-square {
+  padding-left: 0;
+  padding-right: 0;
+  box-sizing: initial;
+}
+.nova-legacy-c-button--size-s {
+  font-size: .875rem;
+  padding: .5em 1em;
+    padding-right: 1em;
+    padding-left: 1em;
+}
+.brand-refresh .nova-legacy-c-button--radius-full, .brand-refresh .nova-legacy-c-button--radius-m, .nova-legacy-c-button--radius-full {
+  border-radius: 9999px;
+}
+.nova-legacy-c-button--align-center {
+  text-align: center;
+}
+.nova-legacy-c-button {
+  box-sizing: border-box;
+  border: 1px solid transparent;
+  outline: none;
+  background-color: initial;
+  cursor: pointer;
+  text-decoration: none;
+  position: relative;
+  text-align: center;
+  line-height: 1;
+  overflow: hidden;
+  margin: 0;
+  vertical-align: top;
+  display: inline-block;
+  white-space: nowrap;
+  transition: .1s linear;
+}
+
+.nova-legacy-c-button--size-s .nova-legacy-c-button__label {
+  line-height: 1.28571;
+}
+.nova-legacy-c-button__label {
+  transition: transform .05s linear,opacity .05s linear;
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+}
+.nova-legacy-c-button *, .nova-legacy-c-button ::after, .nova-legacy-c-button ::before {
+  box-sizing: inherit;
+}
+
+.nova-legacy-e-icon--theme-bare {
+  transform: scale(1.25);
+}
+.nova-legacy-e-icon--size-s {
+  width: 1rem;
+  height: 1rem;
+}
+.nova-legacy-e-icon {
+  width: 1em;
+  height: 1em;
+  vertical-align: -.1875rem;
+  display: inline-block;
+  position: relative;
+  overflow: visible;
+  fill: currentColor;
 }
