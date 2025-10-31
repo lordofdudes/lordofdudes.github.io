@@ -1,3 +1,8 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .lite-page__header {
   background-color: #00CCBBE0;
   position: absolute;
