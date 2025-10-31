@@ -33,3 +33,7 @@
   padding: 0 20px 0 30px;
   margin-right: 10px;
 }
+
+.nova-legacy-l-flex__item {
+  flex-basis: auto;
+}
