@@ -51,3 +51,14 @@ img {
   vertical-align: middle;
   border: 0;
 }
+
+.nova-legacy-o-pack {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+  border-spacing: 0;
+  width: auto;
+  height: 62px;
+  margin-left: -10px;
+  margin-right: -10px;
+}
