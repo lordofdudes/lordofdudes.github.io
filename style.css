@@ -37,3 +37,12 @@
 .nova-legacy-l-flex__item {
   flex-basis: auto;
 }
+
+.brand img {
+  margin-top: -5px;
+}
+
+img {
+  vertical-align: middle;
+  border: 0;
+}
