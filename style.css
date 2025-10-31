@@ -1,5 +1,5 @@
 .lite-page__header {
-  background-color: var(--nova-color-green-500);
+  background-color: #00CCBBE0;
   position: absolute;
   top: 0;
   width: 100%;
@@ -19,8 +19,17 @@
   height: 34px;
   line-height: 26px;
   border-radius: .125rem;
-  background-color: var(--nova-color-green-300);
+  background-color: #00CCBBE0;
   position: relative;
   padding: 0 30px 0 10px;
   font-size: .875rem;
+}
+
+.lite-page__header-logo-link {
+  display: block;
+  height: 100%;
+  line-height: 62px;
+  vertical-align: middle;
+  padding: 0 20px 0 30px;
+  margin-right: 10px;
 }
