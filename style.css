@@ -227,3 +227,10 @@ img {
   line-height: 1.3;
   margin-bottom: 1.42857em;
 }
+
+.lite-page__header-search-group {
+  display: flex;
+  align-items: center;
+  gap: 12px; /* space between search bar and "or" */
+}
+
