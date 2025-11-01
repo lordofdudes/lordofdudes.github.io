@@ -404,3 +404,13 @@ ol, ul {
   text-decoration: none;
   vertical-align: .125rem;
 }
+
+.nova-legacy-e-badge--radius-m {
+  border-radius: 2px;
+}
+
+.nova-legacy-e-badge--color-green.nova-legacy-e-badge--theme-ghost.nova-legacy-e-badge--luminosity-medium {
+  background-color: #0000;
+  color: rgb(3, 92, 90);
+  box-shadow: inset 0 0 0 1px rgb(3, 92, 90);
+}
