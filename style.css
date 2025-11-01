@@ -159,7 +159,7 @@ img {
 }
 .nova-legacy-c-button {
   box-sizing: border-box;
-  border: 1px solid transparent;
+  border: 1px solid #0080FF;
   outline: none;
   background-color: initial;
   cursor: pointer;
@@ -869,4 +869,5 @@ research-detail-author-list__label {
 
 .research-resources-summary .nova-legacy-c-button__label {
   font-family: sans-serif;
+  color: #0080FF;
 }
