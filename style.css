@@ -333,7 +333,7 @@ ol, ul {
   display: flex;
   justify-content: center;
   padding: 82px 20px 20px; /* top = header height (62px) + 20px spacing */
-  background-color: white; /* main area white */
+  background-color: #DDDD; /* main area white */
   min-height: calc(100vh - 82px); /* ensures full viewport height minus header */
   box-shadow: 0 1px 6px rgba(0,0,0,.13), 0 3px 6px rgba(0,0,0,.09);
   border-radius: 4px;
