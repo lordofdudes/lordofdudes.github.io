@@ -432,7 +432,7 @@ ol, ul {
 }
 
 .nova-legacy-e-text--family-display {
-  font-family: var(--nova-font-family-display);
+  font-family: sans-serif;
 }
 .nova-legacy-e-text--size-xl {
   line-height: 1.2;
