@@ -867,3 +867,6 @@ research-detail-author-list__label {
   outline: none;
 }
 
+.research-resources-summary .nova-legacy-c-button__label {
+  font-family: sans-serif;
+}
