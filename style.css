@@ -3,6 +3,16 @@ body {
   padding: 0;
 }
 
+.lite-page--grey-wide {
+  background-color: gray;
+}
+.lite-page {
+  position: relative;
+}
+.lite-page {
+  min-height: 100%;
+}
+
 .lite-page__header {
   background-color: #00CCBBE0;
   position: absolute;
