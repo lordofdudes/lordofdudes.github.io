@@ -279,8 +279,9 @@ ol, ul {
   color: white;
   border-left: 1px solid #035C5A;
   text-decoration: none;
-  font-size: .875rem;
+  font-size: .800rem;
   cursor: pointer;
+  font-family: Arial;
 }
 
 .lite-page__header-links li {
