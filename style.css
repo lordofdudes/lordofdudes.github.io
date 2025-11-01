@@ -1,6 +1,8 @@
 body {
   margin: 0;
   padding: 0;
+    background-color: rgb(211, 211, 211); /* light grey */
+  font-family: Arial, sans-serif;
 }
 
 .lite-page--grey-wide {
@@ -330,8 +332,13 @@ ol, ul {
 .lite-page__main {
   display: flex;
   justify-content: center;
-  padding: 0 20px;
+  padding: 82px 20px 20px; /* top = header height (62px) + 20px spacing */
+  background-color: white; /* main area white */
+  min-height: calc(100vh - 82px); /* ensures full viewport height minus header */
+  box-shadow: 0 1px 6px rgba(0,0,0,.13), 0 3px 6px rgba(0,0,0,.09);
+  border-radius: 4px;
 }
+
 
 @media only screen and (min-width: 1200px) and (max-width: 1430px) {
   .lite-page--grey-wide .lite-page__below, .lite-page--grey-wide .lite-page__content {
