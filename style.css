@@ -233,3 +233,16 @@ img {
   gap: 12px; /* space between search bar and "or" */
 }
 
+.nova-legacy-c-button--size-s .nova-legacy-c-button__label {
+  line-height: 1.28571;
+}
+.nova-legacy-c-button__label {
+  transition: transform .05s linear,opacity .05s linear;
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+}
+.nova-legacy-c-button *, .nova-legacy-c-button ::after, .nova-legacy-c-button ::before {
+  box-sizing: inherit;
+}
+
