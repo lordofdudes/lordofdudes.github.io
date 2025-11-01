@@ -246,3 +246,49 @@ img {
   box-sizing: inherit;
 }
 
+
+.lite-page__header-links {
+  text-align: right;
+  height: 100%;
+}
+fieldset, ol, td, th, ul {
+  padding: 0;
+}
+ol, ul {
+  list-style: none;
+  margin: 0;
+}
+
+.lite-page__header-links li {
+  display: inline-block;
+  height: 100%;
+}
+@media (max-width: 1398px) {
+  .lite-page__header-link {
+    padding: 0 15px;
+  }
+}
+.lite-page__header-link {
+  display: block;
+  padding: 0 30px;
+  height: 100%;
+  line-height: 62px;
+  vertical-align: middle;
+  font-weight: 700;
+  background-color: #00CCBB;
+  color: white;
+  border-left: 1px solid #035C5A;
+  text-decoration: none;
+  font-size: .875rem;
+  cursor: pointer;
+}
+
+.lite-page__header-links li {
+  display: inline-block;
+  height: 100%;
+}
+
+.lite-page__header-login {
+  position: relative;
+  height: 100%;
+}
