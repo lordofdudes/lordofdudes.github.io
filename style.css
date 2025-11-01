@@ -352,7 +352,7 @@ ol, ul {
 .lite-page__content {
   width: 100%;
   flex-grow: 1;
-  max-width: 585px;
+  max-width: 1000px;
   margin-right: 395px;
 }
 
