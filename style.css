@@ -125,8 +125,8 @@ img {
   width: 2.28571em;
 }
 .nova-legacy-c-button--color-white.nova-legacy-c-button--theme-ghost {
-  border-color: #FFFFFF00;
-  color: #FFFFFF00;
+  border-color: white;
+  color: white;
 }
 .nova-legacy-c-button--width-square {
   padding-left: 0;
