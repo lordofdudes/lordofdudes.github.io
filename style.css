@@ -174,7 +174,6 @@ img {
   white-space: nowrap;
   transition: .1s linear;
 }
-
 .nova-legacy-c-button--size-s .nova-legacy-c-button__label {
   line-height: 1.28571;
 }
@@ -459,7 +458,7 @@ ol, ul {
   padding: 0;
   margin: 0;
   font-size: inherit;
-  font-family: inherit;
+  font-family: sans-serif;
   font-weight: inherit;
   border: 0;
   background: none;
@@ -673,4 +672,114 @@ research-detail-author-list__label {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+.research-detail-header-cta {
+  padding: 0 0 0 30px;
+  width: 362px;
+}
+.nova-legacy-c-card--elevation-none {
+  box-shadow: 0 0 0 0 transparent;
+  border-radius: .125rem;
+  border: 1px solid #DDDDDD;
+}
+.nova-legacy-c-card {
+  box-shadow: 0 0 2px rgba(0,0,0,.18),0 1px 3px rgba(0,0,0,.12);
+  box-sizing: border-box;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  font-family: sans-serif;
+  max-width: 100%;
+  width: auto;
+}
+@media screen and (min-width: 0px) {
+  .nova-legacy-c-card .nova-legacy-c-card__body--spacing-none {
+    padding: 0;
+  }
+}
+@media screen and (min-width: 992px) {
+  .nova-legacy-c-card--spacing-l > .nova-legacy-c-card__body {
+    padding: 25px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .nova-legacy-c-card--spacing-l > .nova-legacy-c-card__body {
+    padding: 20px;
+  }
+}
+@media screen and (min-width: 0px) {
+  .nova-legacy-c-card--spacing-l > .nova-legacy-c-card__body {
+    padding: 15px;
+  }
+}
+.nova-legacy-c-card__body {
+  padding: 30px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+.research-detail-header-cta__flex-container {
+  display: flex;
+  align-items: center;
+}
+.research-detail-header-cta__img--download {
+  position: relative;
+  padding-bottom: 10px;
+}
+.research-detail-header-cta__img {
+  padding: 20px 10px 17px 15px;
+    padding-bottom: 17px;
+}
+.nova-legacy-v-publication-item__preview-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 80px;
+  height: 110px;
+  overflow: hidden;
+  border: 0;
+  border-radius: .125rem;
+  margin-bottom: 10px;
+  outline: none;
+  padding: 0;
+  background: none;
+  z-index: 0;
+}
+.research-detail-header-cta__ie11 {
+  width: 100%;
+}
+.research-detail-header-cta__buttons {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 15px 20px 10px;
+}
+.nova-legacy-c-button--color-blue.nova-legacy-c-button--theme-solid {
+  background-color: #0080FF;
+  border-color: #0080FF;
+  color: white;
+}
+.research-detail-header-cta__buttons > a, .research-detail-header-cta__buttons > button {
+  flex-grow: 0;
+  margin: 5px 0 10px;
+}
+.nova-legacy-c-button--width-full {
+  width: 100%;
+}
+.nova-legacy-c-button--size-m {
+  font-size: .875rem;
+  padding: .78571em 2em;
+}
+.nova-legacy-c-button--radius-m {
+  border-radius: 2px;
+}
+.nova-legacy-c-button--size-m .nova-legacy-c-button__label {
+  line-height: 1.28571;
+}
+.nova-legacy-c-button__icon + .nova-legacy-c-button__label {
+  margin-left: .6em;
+}
+.nova-legacy-c-button--align-left {
+  text-align: left;
 }
